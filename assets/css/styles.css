@@ -34,6 +34,34 @@ a:hover {
     color: #bfbfbf;
 }
 
+#portfolioMenu {
+    margin-top: 95px;
+    float: right;
+    font-size: 25px;
+}
+
+#aboutMeMenu {
+    margin-top: 95px;
+    float: right;
+    font-size: 25px;
+}
+
+#resumeMenu {
+    margin-top: 95px;
+    float: right;
+    font-size: 25px;
+}
+
+#contactMenu {
+    margin-top: 95px;
+    float: right;
+    font-size: 25px;
+}
+
+#portfolioSection {
+    color: #2E4052;
+}
+
 body {
     background-color: #bfbfbf;
 }
