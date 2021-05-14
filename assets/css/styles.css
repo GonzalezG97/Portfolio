@@ -12,6 +12,28 @@ header {
     float: left;
 }
 
+a {
+    color: #bfbfbf;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF2800
+}
+
+#reachMe {
+    list-style-type: none;
+    float: right;
+    color: #bfbfbf;
+}
+
 body {
     background-color: #bfbfbf;
 }
