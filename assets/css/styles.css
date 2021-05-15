@@ -34,33 +34,39 @@ a:hover {
     color: #bfbfbf;
 }
 
-#portfolioMenu {
+.headerMenu {
     margin-top: 95px;
     float: right;
     font-size: 25px;
 }
 
-#aboutMeMenu {
-    margin-top: 95px;
-    float: right;
-    font-size: 25px;
-}
 
-#resumeMenu {
-    margin-top: 95px;
-    float: right;
-    font-size: 25px;
-}
-
-#contactMenu {
-    margin-top: 95px;
-    float: right;
-    font-size: 25px;
-}
-
-#portfolioSection {
+.displaySection {
     color: #2E4052;
 }
+
+#ascent {
+    background-color: #FF2800;
+    width: 100%;
+    height: 10px
+}
+
+
+#selfie {
+    float:right;
+    margin-bottom: 55px;
+}
+
+
+
+i {
+    color: #ff2800
+}
+
+
+.carousel-item {
+    text-align: center;
+  }
 
 body {
     background-color: #bfbfbf;
