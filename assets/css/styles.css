@@ -46,16 +46,21 @@ a:hover {
     color: #2E4052;
 }
 
-#ascent {
+.ascent {
     background-color: #FF2800;
-    width: 100%;
+    
     height: 10px
+}
+
+.text {
+    color: #2e4052;
+    font-size: 20px;
 }
 
 
 #selfie {
-    float:right;
-    margin-bottom: 55px;
+    float: right;
+    border-radius: 17%;
 }
 
 

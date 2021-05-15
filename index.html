@@ -18,7 +18,8 @@
 
 <body>
     <header>
-        <p id="name">Gustavo Gonzalez<p>
+        <p id="name">Gustavo Gonzalez
+        <p>
         <ul id="reachMe">
             <li>
                 <a href="https://github.com/GonzalezG97">
@@ -39,21 +40,33 @@
         <a class="headerMenu" href="#portfolioSection">Portfolio/</a>
         <a class="headerMenu" href="#aboutMeSection">About Me/</a>
     </header>
-    <div id="ascent"></div>
+    <div class="ascent"></div>
 
-    <a class="displaySection" id="aboutMeSection">
-        <h1>About Me <i id="person" class="fas fa-child"></i></h1>
-    </a>
-    <div class="container">
-        <p>Hello and welcome to my website! I am new to web development and created this to show off my projects and
-            new skills. I worked in customer support for many big names in tech. I hope to use my ability to
-            understand how the average customer thinks to the development side. Armed with this knowledge I plan to
-            build applications and websites with the most common user issues in mind to help minimize user error.
-            <img id="selfie" src="https://live.staticflickr.com/65535/50896646237_39f24da118_q.jpg" width="150"
-                height="150" alt="That's Me!">
-        </p>
-
+    <div class="row">
+        <div class="col-md-4">
+            <a class="displaySection" id="aboutMeSection">
+                <h1>About Me <i id="person" class="fas fa-child"></i></h1>
+            </a>
+            <p class="text">Hello and welcome to my website! I am new to web development and created this to show off my
+                projects and
+                new skills. I worked in customer support for many big names in tech. I hope to use my ability to
+                understand how the average customer thinks to the development side. Armed with this knowledge I plan to
+                build applications and websites with the most common user issues in mind to help minimize user error.
+            </p>
+        </div>
+        <div class="col-md-4">
+            <img id="selfie" src="https://live.staticflickr.com/65535/50896646237_39f24da118_q.jpg" width="200"
+                height="200" alt="That's Me!">
+        </div>
+        <div class="col-md-4"></div>
     </div>
+
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 ascent"></div>
+        <div class="col-md-4"></div>
+    </div>
+
 
     <a class="displaySection" id="portfolioSection">
         <div>
@@ -68,8 +81,8 @@
                     width="300" height="300">
             </div>
             <div class="carousel-item active">
-                <img src="https://live.staticflickr.com/65535/51044072753_d6b8c1e9e8_q.jpg" alt="FilFinder"
-                    width="300" height="300">
+                <img src="https://live.staticflickr.com/65535/51044072753_d6b8c1e9e8_q.jpg" alt="FilFinder" width="300"
+                    height="300">
             </div>
             <div class="carousel-item active">
                 <img src="https://live.staticflickr.com/65535/51044826026_ee657d3152_q.jpg" alt="WeatherDashboard"
@@ -88,69 +101,97 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 ascent"></div>
+        <div class="col-md-4"></div>
+    </div>
+
     <a class="displaySection" id="resumeSection">
         <h1>Resume <i class="far fa-file"></i></h1>
     </a>
+
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            Column
+          </div>
+          <div class="col">
+            Column
+          </div>
+          <div class="col">
+            Column
+          </div>
+        </div>
+      </div>
+
+      <button class=" btn btn-dark" onclick=" window.open('https://drive.google.com/file/d/1heTE42rfZpYerCgOyFyW1UzBd4g9GVhk/view')">Download my Resume</button>
+
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 ascent"></div>
+        <div class="col-md-4"></div>
+    </div>
 
     <a class="displaySection" id="contactSection">
         <h1>Contact Me <i class="fas fa-address-card"></i></h1>
     </a>
 
     <section class="row">
-    <section class="col-md-4"></section>
+        <section class="col-md-4"></section>
         <section class="col-md-4">
 
-          <form class="row g-3 needs-validation" novalidate>
+            <form class="row g-3 needs-validation" novalidate>
 
-            <div>
-              <label for="validationCustom01" class="form-label">First Name</label>
-              <input type="Text" class="form-control" id="validationCustom01" required>
-              <div class="valid-feedback">
-                Great!
-              </div>
-              <div class="invalid-feedback">
-                Please add your first name
-              </div>
-            </div>
-            <div>
-
-              <div>
-                <label for="validationCustom02" class="form-label">Last Name</label>
-                <input type="Text" class="form-control" id="validationCustom01" required>
-                <div class="valid-feedback">
-                  Nice!
+                <div>
+                    <label for="validationCustom01" class="form-label">First Name</label>
+                    <input type="Text" class="form-control" id="validationCustom01" required>
+                    <div class="valid-feedback">
+                        Great!
+                    </div>
+                    <div class="invalid-feedback">
+                        Please add your first name
+                    </div>
                 </div>
-                <div class="invalid-feedback">
-                  Please add your last name 
-                </div>
-              </div>
-              
-              <div>
-                <label for="validationCustomEmail" class="form-label">Email</label>
-                <div class="input-group has-validtion">
-                  <input type="Email" class="form-control" required>
-                  <div class="valid-feedback">
-                    Awesome!
-                  </div>
-                  <div class="invalid-feedback">
-                    Please input email 
-                  </div>
-                </div>
-              </div>
+                <div>
 
-              <div>
-                <label>Send me a message</label>
-                <textarea rows="6" class="form-control"></textarea>
-              </div>  
-                
-                
-                
-            </div>    
-            <button class="btn btn-lg btn-primary btn-dark" style="margin-bottom: 10px;" >Submit</button>
-          </form>
-            
+                    <div>
+                        <label for="validationCustom02" class="form-label">Last Name</label>
+                        <input type="Text" class="form-control" id="validationCustom01" required>
+                        <div class="valid-feedback">
+                            Nice!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please add your last name
+                        </div>
+                    </div>
 
-      
+                    <div>
+                        <label for="validationCustomEmail" class="form-label">Email</label>
+                        <div class="input-group has-validtion">
+                            <input type="Email" class="form-control" required>
+                            <div class="valid-feedback">
+                                Awesome!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please input email
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label>Send me a message</label>
+                        <textarea rows="6" class="form-control"></textarea>
+                    </div>
+
+
+
+                </div>
+                <button class="btn btn-lg btn-primary btn-dark" style="margin-bottom: 10px;">Submit</button>
+            </form>
+
+
+
 
 </body>
 
