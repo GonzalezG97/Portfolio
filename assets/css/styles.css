@@ -69,10 +69,22 @@ i {
     color: #ff2800
 }
 
+.fas {
+    float: left;
+}
 
 
-.carousel-item {
-    text-align: center;
+
+.grid-container {
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+  }
+  .grid-item {
+   display: grid;
+   
+
   }
 
 body {
