@@ -6,11 +6,12 @@ header {
 }
 
 #name {
-    font-size: 75px;
-    margin-top: 30px;
+    font-size: 85px;
+    margin-top: 40px;
     margin-left: 10px;
-    float: left;
+    
 }
+
 a:link,
 a:visited,
 a {
@@ -82,6 +83,10 @@ i {
    margin-right: auto 
 
   }
+
+ul {
+    list-style-type: none;
+}
 
 body {
     background-color: #bfbfbf;
