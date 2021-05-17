@@ -72,7 +72,7 @@ i {
 
 .grid-container {
     display: grid;
-    grid-row-gap: 50px;
+    grid-row-gap: 25px;
     grid-template-columns: auto auto auto;
     gap: 5px;
   }
