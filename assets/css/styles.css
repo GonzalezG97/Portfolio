@@ -11,19 +11,12 @@ header {
     margin-left: 10px;
     float: left;
 }
-
+a:link,
+a:visited,
 a {
-    color: #bfbfbf;
     text-decoration: none;
 }
 
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
 
 a:hover {
     color: #FF2800
@@ -39,6 +32,7 @@ a:hover {
     margin-top: 95px;
     float: right;
     font-size: 25px;
+    color: #bfbfbf;
 }
 
 
@@ -47,8 +41,7 @@ a:hover {
 }
 
 .ascent {
-    background-color: #FF2800;
-    
+    background-color: #FF2800;    
     height: 10px
 }
 
@@ -69,8 +62,10 @@ i {
     color: #ff2800
 }
 
-.fas {
-    float: left;
+
+#contact {
+    text-align:center;
+    color: #2e4052;
 }
 
 
@@ -83,7 +78,8 @@ i {
   }
   .grid-item {
    display: grid;
-   
+   margin-left: auto;
+   margin-right: auto 
 
   }
 
